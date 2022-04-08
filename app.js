@@ -25,7 +25,7 @@ const client = new Client({
 });
 
 client.once('ready', () => {
-  console.log('Bob is back!');
+  console.log('Bot is online');
 });
 
 client.on('messageReactionAdd', (reaction, user) => {
